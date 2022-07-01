@@ -3,7 +3,7 @@ Technical Test
 
 ## Install project  
 
-Frist, clone this project and run npm install command.  
+First, clone this project and run npm install command.  
 
 ## Install Postgresql  
 
@@ -16,6 +16,8 @@ Once Postgresql installed, go into a terminal and run this command: psql -U post
 Then, once your are on postgres command: CREATE ROLE userName WITH LOGIN PASSWORD 'password';  
 
 Then, create database: CREATE DATABASE databaseName OWNER userName;  
+
+To leave postgres commands: exit  
 
 ## Import tables and datas to database  
 
